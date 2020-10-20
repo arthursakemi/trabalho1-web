@@ -20,6 +20,9 @@ function createProductCard(product) {
   card.className = 'product-card';
   card.appendChild(productImg);
   card.appendChild(productInfo);
+  card.onclick = () => {
+    location.href = './detalheProduto.html';
+  };
 
   return card;
 }

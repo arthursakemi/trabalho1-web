@@ -1,0 +1,73 @@
+.pagina-detalhe {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.detalhes-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info {
+  word-break: break-word;
+  width: 100%;
+}
+
+.caroussel {
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+}
+.caroussel-img {
+  background-image: url(./img/handbook-jaqueta-jeans--2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
+
+.perguntas-container {
+  width: 100%;
+}
+
+.nome-produto {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.pergunta,
+.marca {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.valor,
+.subtitulo {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.perguntas-container {
+  padding: 20px;
+  border: 1px solid darkgray;
+}
+
+.pergunta {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .detalhes-principal {
+    flex-wrap: wrap;
+  }
+}
